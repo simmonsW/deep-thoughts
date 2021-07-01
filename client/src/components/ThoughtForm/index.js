@@ -51,7 +51,7 @@ const ThoughtForm = () => {
       setText('');
       setCharacterCount(0);
     } catch (e) {
-      console.log(e);
+      console.error(e);
     }
   };
 
